@@ -1,0 +1,35 @@
+/* Styling for the popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 165, 0, 0.9); /* Orange background with transparency */
+    color: white;
+    text-align: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling for the online status message */
+.status {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Center the message horizontally */
+    width: auto;
+    height: auto;
+    background-color: rgb(20, 190, 20); /* Green background */
+    color: white;
+    text-align: center;
+    z-index: 9999;
+}
